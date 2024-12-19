@@ -19,7 +19,7 @@ const Testimonial = () => {
             <h2 className='h2 text-red'>{title}</h2>
        
             <div className='mb-12'>
-              <img src={modelImg} />
+              <img src={modelImg} alt='model'/>
             </div>
 
   </div>
