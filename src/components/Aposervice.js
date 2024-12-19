@@ -3,7 +3,7 @@ import img from '../assets/image/2D_001.jpg';
 
 function Aposervice() {
   return (
-    <section  id='apo-service'  className="pt-16 px-4 bg-black">
+    <section  id='apo-service'  className="pt-16 px-4 bg-black" style={{padding: '20px'}}>
       {/* Heading Section */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-extrabold uppercase mb-4 text-red-600 tracking-wide">APO Services</h2>

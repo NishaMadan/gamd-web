@@ -10,7 +10,7 @@ const groupedData = {
 
 const About = () => {
   return (
-    <section id="about" className="py-12 bg-gray-100">
+    <section id="about" className="py-12 bg-gray-100" style={{padding: '20px'}}>
       <div className="container mx-auto">
         {/* New Section Before Management */}
         <div className="container" style={{ width: '100%', marginTop:'10px' }}>
@@ -39,8 +39,7 @@ const About = () => {
       <div className="text-center">
         <i className="ti-quote-left icon icon-sm mb16" style={{ color: 'red' }}></i>
         <h4 className="mb32 text-black">
-          GA Morgan is a subsidiary of Morgan Tecnica Spa, Italy, incorporated in 2008 as
-          a 100% independent self-operated Indian Private Limited Company. GA Morgan is a team of highly
+          GA Morgan is a team of highly
           qualified, decade-experienced professionals and engineers serving more than 500+ customers
           in India, Bangladesh, Sri Lanka, and the Middle East Market.
         </h4>
@@ -52,7 +51,7 @@ const About = () => {
           sampling, costing, material handling, loading, spreading, pinning, labelling, cutting, and
           parts inspection. Today, GA Morgan is the market leader with its 45+ team professionals,
           Morgan Industrial Training Centre, Centralized parts warehouse, direct service centers at
-          Bangalore, Delhi, Kolkata, Ludhiana, Tirupur, Ahmedabad, and Mumbai.
+          Bangalore, Delhi, Kolkata, Ludhiana, Tirupur, Ahmedabad, and Mumbai.                                           
         </p>
       </div>
     </div>
@@ -61,7 +60,7 @@ const About = () => {
 
 
         {/* Previous Content */}
-
+<div style={{padding: '30px'}}>
 
         {/* Management Section */}
         <h2 className="text-4xl text-black font-bold text-center mb-6 uppercase">Management</h2>
@@ -74,6 +73,8 @@ const About = () => {
         {/* Crew Section */}
         <h2 className="text-4xl text-black font-bold text-center mt-12 mb-6 uppercase">Crew</h2>
         <Carousel data={groupedData.Crew} showArrows={false} imageSize="large" />
+      </div>
+
       </div>
     </section>
   );
@@ -139,6 +140,9 @@ const Carousel = ({ data, showArrows, imageSize }) => {
           ></button>
         ))}
       </div>
+
+    
+
 
       {/* Slider Controls (Conditional Rendering) */}
       {showArrows && (
