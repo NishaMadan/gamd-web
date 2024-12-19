@@ -4,8 +4,6 @@ import {
   FaYoutube,
   FaFacebookF,
   FaInstagram,
-  FaPinterestP,
-  FaDiscord,
   FaLinkedin,
 } from 'react-icons/fa';
 const Footer = () => {
