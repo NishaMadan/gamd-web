@@ -1,0 +1,96 @@
+/* Basic Styles for the carousel */
+#indicators-carousel {
+    position: relative;
+  }
+  
+  [data-carousel-item="active"] {
+    display: block !important;
+  }
+  
+  [data-carousel-item] {
+    display: none;
+  }
+  
+  .carousel-wrapper {
+    position: relative;
+    height: 100%;
+  }
+  
+  .carousel .carousel-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carousel .carousel-slide:not([data-carousel-item="active"]) {
+    opacity: 0;
+  }
+  
+  /* Navigation Arrows */
+  .carousel .control-arrow {
+    background-color: transparent;
+    height: 48px;
+    width: 48px;
+    border: 2px solid black;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .carousel .control-prev {
+    left: 10px;
+  }
+  
+  .carousel .control-next {
+    right: 10px;
+  }
+  
+  .carousel .control-prev.control-arrow:before,
+  .carousel .control-next.control-arrow:before {
+    border: none;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .carousel .control-prev.control-arrow:before {
+    background: url('../assets/img/testimonial/arrow-left.svg') no-repeat;
+  }
+  
+  .carousel .control-next.control-arrow:before {
+    background: url('../assets/img/testimonial/arrow-right.svg') no-repeat;
+  }
+  
+  /* Indicators */
+  [data-carousel-item] {
+    opacity: 0.5;
+  }
+  
+  [data-carousel-item="active"] {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Bottom Indicators */
+  [data-carousel-slide-to] {
+    width: 12px;
+    height: 12px;
+    background-color:red;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 2px solid transparent;
+  }
+  
+  [data-carousel-slide-to]:hover {
+    background-color: red;
+  }
+  
+  [data-carousel-slide-to][aria-current="true"] {
+    background-color: black;
+  }
+  

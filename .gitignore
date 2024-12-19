@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build output
+/dist
+/build
+
+# Tailwind CSS configuration
+tailwind.config.js
+
+# Other potential unwanted files
+*.bak
+.DS_Store
+
+# IDE config files
+.vscode/

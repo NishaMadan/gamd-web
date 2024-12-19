@@ -1,0 +1,27 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 562.4 80.26">
+	<defs>
+		<style>
+			.cls-1
+			{
+				fill:none;stroke:#ed1c26;stroke-miterlimit:10;
+			}
+			.cls-2
+			{
+				font-size:24.41px;fill:#9a9a9a;letter-spacing:0.03em;
+			}
+			.cls-2,.cls-3
+			{
+				font-family:Play;
+			}
+			.cls-3
+			{
+				font-size:47px;fill:#9a9a9a;letter-spacing:0.06em;
+			}
+		</style>
+	</defs>
+	<line class="cls-1" x1="3.71" y1="50.13" x2="555.61" y2="50.13"/>
+	<text class="cls-2" transform="translate(3.44 74.89)">
+		<tspan xml:space="preserve">P R E - S E W   P R O C E S S   A U T O M A T I O N</tspan>
+	</text>
+	<text class="cls-3" transform="translate(0 38.75)">GA MORGAN DYNAMICS</text>
+</svg>
